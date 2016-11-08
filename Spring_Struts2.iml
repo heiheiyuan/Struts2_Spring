@@ -14,8 +14,8 @@
         <configuration>
           <fileset id="s2fileset" name="Default File Set " removed="false">
             <file>file://$MODULE_DIR$/src/struts.xml</file>
-            <file>jar://$MODULE_DIR$/../SpringDemoOme/lib/struts2-convention-plugin-2.3.30.jar!/struts-plugin.xml</file>
             <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.15.3/struts2-core-2.3.15.3.jar!/struts-default.xml</file>
+            <file>jar://$MODULE_DIR$/lib/struts2-spring-plugin-2.3.30.jar!/struts-plugin.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
@@ -37,7 +37,7 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" name="org.apache.struts:struts2-core:2.3.15.3" level="application" />
+    <orderEntry type="library" name="struts2" level="application" />
     <orderEntry type="library" name="Spring MVC-4.3.3.RELEASE" level="application" />
     <orderEntry type="module-library">
       <library>

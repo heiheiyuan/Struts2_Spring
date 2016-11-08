@@ -11,6 +11,7 @@
           <element id="library" level="project" name="Spring-4.3.3.RELEASE" />
           <element id="library" level="application" name="Spring MVC-4.3.3.RELEASE" />
           <element id="file-copy" path="$PROJECT_DIR$/lib/junit-4.8.2.jar" />
+          <element id="library" level="application" name="struts2" />
         </element>
       </element>
     </root>
