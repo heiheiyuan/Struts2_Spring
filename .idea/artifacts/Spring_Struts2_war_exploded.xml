@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring_Struts2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_Struts2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Spring_Struts2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring_Struts2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.3.RELEASE" />
+          <element id="library" level="application" name="Spring MVC-4.3.3.RELEASE" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/junit-4.8.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
