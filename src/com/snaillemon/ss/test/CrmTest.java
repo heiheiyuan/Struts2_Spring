@@ -12,9 +12,5 @@ public class CrmTest {
 
     @Test
     public void test() {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        CrmAction crmAction = context.getBean("crmAction", CrmAction.class);
-        System.out.println("web层");
-        crmAction.exectue();
     }
 }
