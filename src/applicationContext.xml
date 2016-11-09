@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <!--dao层实现类-->
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--启用基于classpath扫描方式的配置-->
+    <context:component-scan base-package="com.snaillemon"/>
+    <!--&lt;!&ndash;dao层实现类&ndash;&gt;
     <bean id="crmDaoImpl" class="com.snaillemon.ss.dao.impl.CrmDaoImpl"/>
 
-    <!--service层实现类-->
+    &lt;!&ndash;service层实现类&ndash;&gt;
     <bean id="crmService" class="com.snaillemon.ss.service.impl.CrmServiceImpl">
         <property name="crmDao" ref="crmDaoImpl"/>
     </bean>
 
-    <!--action-->
+    &lt;!&ndash;action&ndash;&gt;
     <bean id="crmAction" class="com.snaillemon.ss.action.CrmAction" scope="prototype">
         <property name="crmService" ref="crmService"/>
-    </bean>
+    </bean>-->
 
 </beans>
